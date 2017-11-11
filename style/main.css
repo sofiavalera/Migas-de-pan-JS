@@ -1,0 +1,232 @@
+﻿body
+{
+	background-color:bisque;
+}
+#web{
+    margin-top: 25px;
+    margin-left: 170px;
+    padding 0;
+    position: center;
+    width: 1000px;
+    height: 1100px;
+    display: inline-block;
+}
+/*-------------CABECERA-------------*/
+#cabecera{
+    
+    text-align: center;
+    position:center;
+    font-family: 20px fantasy;
+    font-size: xx-large;
+    color:darkslategrey;
+}
+#cabecera h1{
+    margin-top: 1px;
+}
+/*-------------FORM----------------*/
+
+#formulario{
+    
+    position: absolute;
+    left: 60px;
+    top: 60px;
+    
+}
+
+.form input{
+    
+   border-radius: 5px;
+   border-bottom: 1px solid white;
+   background-color: white;
+   font-family: cursive;
+   border-style:dotted;    
+   
+}
+
+
+/*-------------MENU-------------*/
+#menu{
+
+    position: center;
+    display: inline-block;
+    
+    
+}
+#menu a{
+   
+    width: 162px;
+    text-align: center;
+    color:bisque;
+    background-color: darkslategrey;
+    padding: 10px;
+    float: left;
+    border-radius: 30px;
+    text-decoration:none;
+}
+#menu li{
+    float:left;
+}
+#menu ul{
+    list-style-type: none;
+}
+#menu a:hover{
+    background-color: #577600;
+    
+}
+#menu li a:hover {
+    background-color: #76B05D;
+    margin-top:-2px;
+    padding-bottom:12px;
+    cursor:pointer; cursor; hand;
+}
+
+/*---------------TITULOS--------------------*/
+
+.titulos{
+    
+    text-align: center;
+    position: center;
+    font-family: cursive;
+    color: darkslategrey;
+
+}
+
+p{
+    color:black;
+    text-align: center;
+    font-family: cursive;
+}
+
+
+/*-------------SECTION-------------*/
+#ofertas{
+    
+    margin:50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 900px;
+    height: 300px;
+    /*background-color: white;*/
+    display: inline-block;
+    
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color:cadetblue;
+    
+}
+
+#desayunos{
+    
+    margin:50px;
+    margin-top: 10px;
+    width: 900px;
+    height: 300px;
+    display: inline-block;
+    
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color:cadetblue;
+
+}
+
+
+/*-------------ARTICLE--------------*/
+
+#ofertas div{
+    float: left;
+    width: 300px;
+    height: 298px;
+}
+#desayunos div{
+    float: left;
+    width: 300px;
+    height: 298px;
+}
+#ofertas div img{
+    width: 200px;
+    height: 220px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: cadetblue;
+
+}
+#desayunos div img{
+    width: 200px;
+    height: 220px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 15px;
+    border-style:solid;
+    border-color: cadetblue;
+}
+
+
+/*------------PIE-----------------*/
+#pie{
+    
+    margin:50px;
+    width: 900px;
+    height: 110px;
+    background-color:darkslategrey;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.iconos{
+    
+    display: inline-flex;
+    list-style: none;
+    margin-left: 20em;
+    margin-top: -0.5em;
+}
+
+.iconos li{
+    
+    width: 4em;
+}
+
+.iconos li img{
+    
+    width: 3em;
+}
+
+
+/*------------PAG/CONSTRUCCIÓN-----------------*/
+h4{
+    text-align: center;
+    font-family:cursive;
+    font-size: 20px;
+    margin-top: 70px;  
+    backface-visibility: hidden;
+    background-color:white;
+    padding: 10px;
+       
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color:cadetblue;
+    
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: cadetblue;
+    
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+    width: 35em;
+    margin-left: 160px;
+}
+#construccion img{
+    
+    display: block;
+    margin-left: 340px;
+    margin-bottom: 20px;
+    width: 300px;
+    
+    
+}
